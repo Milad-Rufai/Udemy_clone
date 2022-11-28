@@ -12,61 +12,68 @@
 
 <body>
   <header>
-    <img id="main" src="images/logo-udemy.svg" alt="logo">
-    <div class="dropdown">
-      <p class="dropbtn">Categories</p>
-      <div class="dropdown-content">
-        <a href="#">Development</a>
-        <a href="#">Business</a>
-        <a href="#">Finance &#38; Accounting</a>
-        <a href="#">IT &#38; Software</a>
-        <a href="#">Office Productivity</a>
-        <a href="#">Personal Development</a>
-        <a href="#">Design</a>
-        <a href="#">Marketing</a>
-        <a href="#">Lifestyle</a>
-        <a href="#">Photography &#38; Video</a>
-        <a href="#">Health &#38; Fitness</a>
-        <a href="#">Music</a>
-        <a href="#">Teaching &#38; Academics</a>
-      </div>
-    </div>
-    <input type="search" name="searchbar" id="searchbar" placeholder="Search for anything">
-    <div class="side">
+    <nav class="nav_flex">
+      <img id="main" src="images/logo-udemy.svg" alt="logo">
       <div class="dropdown">
-        <p class="dropbtn">Udemy Business</p>
+        <p class="dropbtn">Categories</p>
         <div class="dropdown-content">
-          <p>Get your Team access to over 19,000 top Udemy courses, anytime, anywhere.
-            <a href="#" class="button">GET STARTED&gt;</a>
-          </p>
+          <a href="#">Development</a>
+          <a href="#">Business</a>
+          <a href="#">Finance &#38; Accounting</a>
+          <a href="#">IT &#38; Software</a>
+          <a href="#">Office Productivity</a>
+          <a href="#">Personal Development</a>
+          <a href="#">Design</a>
+          <a href="#">Marketing</a>
+          <a href="#">Lifestyle</a>
+          <a href="#">Photography &#38; Video</a>
+          <a href="#">Health &#38; Fitness</a>
+          <a href="#">Music</a>
+          <a href="#">Teaching &#38; Academics</a>
         </div>
       </div>
-          <div class="dropdown">
-            <p class="dropbtn">Teach on Udemy</p>
-            <div class="dropdown-content">
-              <p>Turn what you know into an opportunity
-                <a href="#" class="button">GET STARTED&gt;</a>
-              </p>
-              </div>
-            </div>
-              <i class="material-icons">shopping_cart</i>
-              <button><a href="#">Log in</a></button>
-              <button><a href="#">Sign up</a></button>
-              <button style="font-size:24px"> <i class="material-icons">language</i></button>
-            </div>
+      <div class="main2">
+        <input type="search" name="searchbar" id="searchbar" placeholder="Search for anything">
+      </div>
+      <div class="side">
+        <div class="dropdown">
+          <p class="dropbtn">Udemy Business</p>
+          <div class="dropdown-content">
+            <p>Get your Team access to over 19,000 top Udemy courses, anytime, anywhere.
+              <a href="#" class="button">GET STARTED&gt;</a>
+            </p>
+          </div>
+        </div>
+        <div class="dropdown">
+          <p class="dropbtn">Teach on Udemy</p>
+          <div class="dropdown-content">
+            <p>Turn what you know into an opportunity
+              <a href="#" class="button">GET STARTED&gt;</a>
+            </p>
+          </div>
+        </div>
+
+        <i class="material-icons">shopping_cart</i>
+        <button class="login"><a href="#">Log in</a></button>
+        <button class="signup"><a href="#">Sign up</a></button>
+        <button id="lang"> <i class="material-icons">language</i></button>
+      </div>
+    </nav>
   </header>
 
   <section id="first">
-    <div class="show">
     <img src="images/main.jpg" alt="Udemy">
-    <h1>Learning that gets you</h1>
+    <div class="show">
+      <h1>Learning that gets you</h1>
       <p>Skills for your present(and your future). Get started today</p>
-  </div>
+    </div>
   </section>
 
-  <section>
+  <section class="show2">
     <h1>A broad selection of courses</h1>
     <p>Choose from 213,000 online video courses with new additions published every month</p>
+    <br>
+    <br>
     <hr>
     <details>
       <summary>Phyton</summary>
@@ -82,243 +89,276 @@
         <sub>Phyton from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
         <img src="images/visa-online.jpg" alt="">
         <sub>Teach your kids to code: Learn to program Phyton at any age</sub>
-    </div>
+      </div>
       </p>
-  </details>
+    </details>
 
-  <hr>
+    <hr>
 
-  <details>
-    <summary>Excel</summary>
-    <p>
-    <div class="grp2">
-      <img src="images/visa-online.jpg" alt="Phyton">
-      <sub>Learn Excel: The complete Excel course</sub>
-      <img src="images/visa-online.jpg" alt="">
-      <sub>Learning Excel for Data Analysis and Visualization</sub>
-      <img src="images/visa-online.jpg" alt="">
-      <sub>Excel for Beginners - Learn Excel from scratch</sub>
-      <img src="images/visa-online.jpg" alt="">
-      <sub>Excel from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-      <img src="images/visa-online.jpg" alt="">
-      <sub>Teach your kids Excel: Learn Excel at any age</sub>
-  </div>
-    </p>
-</details>
-<hr>
+    <details>
+      <summary>Excel</summary>
+      <p>
+      <div class="grp2">
+        <img src="images/visa-online.jpg" alt="Phyton">
+        <sub>Learn Excel: The complete Excel course</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Learning Excel for Data Analysis and Visualization</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Excel for Beginners - Learn Excel from scratch</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Excel from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Teach your kids Excel: Learn Excel at any age</sub>
+      </div>
+      </p>
+    </details>
+    <hr>
 
-<details>
-  <summary>Web Development</summary>
-  <p>
-  <div class="grp2">
-    <img src="images/visa-online.jpg" alt="Phyton">
-    <sub>Learn Web Development: The complete Web Development course</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Learning Web Development for Data Analysis and Visualization</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Web Development for Beginners - Learn Web Development from scratch</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Web Development from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Teach your kids Excel: Learn Web Development at any age</sub>
-</div>
-  </p>
-</details>
+    <details>
+      <summary>Web Development</summary>
+      <p>
+      <div class="grp2">
+        <img src="images/visa-online.jpg" alt="Phyton">
+        <sub>Learn Web Development: The complete Web Development course</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Learning Web Development for Data Analysis and Visualization</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Web Development for Beginners - Learn Web Development from scratch</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Web Development from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Teach your kids Excel: Learn Web Development at any age</sub>
+      </div>
+      </p>
+    </details>
 
-<hr>
+    <hr>
 
-<details>
-  <summary>JavaScript</summary>
-  <p>
-  <div class="grp2">
-    <img src="images/visa-online.jpg" alt="Phyton">
-    <sub>Learn JavaScript: The complete JavaScript course</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Learning JavaScript for Data Analysis and Visualization</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>JavaScript for Beginners - Learn JavaScript from scratch</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>JavaScript from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Teach your kids JavaScript: Learn JavaScript at any age</sub>
-</div>
-  </p>
-</details>
+    <details>
+      <summary>JavaScript</summary>
+      <p>
+      <div class="grp2">
+        <img src="images/visa-online.jpg" alt="Phyton">
+        <sub>Learn JavaScript: The complete JavaScript course</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Learning JavaScript for Data Analysis and Visualization</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>JavaScript for Beginners - Learn JavaScript from scratch</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>JavaScript from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Teach your kids JavaScript: Learn JavaScript at any age</sub>
+      </div>
+      </p>
+    </details>
 
-<hr>
+    <hr>
 
-<details>
-  <summary>Data Science</summary>
-  <p>
-  <div class="grp2">
-    <img src="images/visa-online.jpg" alt="Phyton">
-    <sub>Learn Data Science: The complete Data Science course</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Learning Data Science for Data Analysis and Visualization</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Data Science for Beginners - Learn Data Science from scratch</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Data Science from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Teach your kids Data Science: Learn Data Science at any age</sub>
-</div>
-  </p>
-</details>
+    <details>
+      <summary>Data Science</summary>
+      <p>
+      <div class="grp2">
+        <img src="images/visa-online.jpg" alt="Phyton">
+        <sub>Learn Data Science: The complete Data Science course</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Learning Data Science for Data Analysis and Visualization</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Data Science for Beginners - Learn Data Science from scratch</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Data Science from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Teach your kids Data Science: Learn Data Science at any age</sub>
+      </div>
+      </p>
+    </details>
 
-<hr>
+    <hr>
 
-<details>
-  <summary>AWS Certification</summary>
-  <p>
-  <div class="grp2">
-    <img src="images/visa-online.jpg" alt="Phyton">
-    <sub>Learn AWS Certification: The complete Data Science course</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Learning AWS Certification for Data Analysis and Visualization</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>AWS Certification for Beginners - Learn AWS Certification from scratch</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>AWS Certification from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Teach your kids AWS Certification: Learn AWS Certification at any age</sub>
-</div>
-  </p>
-</details>
+    <details>
+      <summary>AWS Certification</summary>
+      <p>
+      <div class="grp2">
+        <img src="images/visa-online.jpg" alt="Phyton">
+        <sub>Learn AWS Certification: The complete Data Science course</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Learning AWS Certification for Data Analysis and Visualization</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>AWS Certification for Beginners - Learn AWS Certification from scratch</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>AWS Certification from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Teach your kids AWS Certification: Learn AWS Certification at any age</sub>
+      </div>
+      </p>
+    </details>
 
-<hr>
+    <hr>
 
-<details>
-  <summary>Drawing</summary>
-  <p>
-  <div class="grp2">
-    <img src="images/visa-online.jpg" alt="Phyton">
-    <sub>Learn Drawing: The complete Data Science course</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Learning Drawing for Data Analysis and Visualization</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Drawing for Beginners - Learn Drawing from scratch</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Teach your kids Drawing: Learn Drawing at any age</sub>
-</div>
-  </p>
-</details>
-<hr>
-
-<div>
-
-<div>
-  Learn in-demand skills with over 213,000 video courses
-</div>
-<div>
-  Choose courses taugh by real-world experts
-</div>
-<div>
-  Learn at your own pace, with lifetime access on mobile and desktop
-</div>
-
-</div>
-
-<div>
-  <h2>Students are viewing</h2>
-  <img src="images/visa-online.jpg" alt="">
-    <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-    <img src="images/visa-online.jpg" alt="">
-    <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
-</div>
-  </section>
-
-  <section>
-
-    <h2>Features topics by categories</h2>
-
-    <p>Development</p>
-    <ul>
-      <li><a href="">Phyton</a></li>
-      <sub>36,000,000 students</sub>
-      <li><a href="">Web Development</a></li>
-      <sub>36,000,000 students</sub>
-      <li><a href="">Machine Learning</a>
-      </li>
-      <sub>36,000,000 students</sub>
-    </ul>
-
-    <p>Business</p>
-    <ul>
-      <li><a href="">Financial Analysis</a></li>
-      <sub>36,000,000 students</sub>
-      <li><a href="">SQL</a></li>
-      <sub>36,000,000 students</sub>
-      <li><a href="">PMP</a>
-      </li>
-      <sub>36,000,000 students</sub>
-    </ul>
-
-    <p>IT and Software</p>
-    <ul>
-      <li><a href="">AWS Certification</a></li>
-      <sub>36,000,000 students</sub>
-      <li><a href="">Ethical Hacking</a></li>
-      <sub>36,000,000 students</sub>
-      <li><a href="">Cyber Security</a>
-      </li>
-      <sub>36,000,000 students</sub>
-    </ul>
-
-    <p>Design</p>
-    <ul>
-      <li><a href="">Photoshop</a></li>
-      <sub>36,000,000 students</sub>
-      <li><a href="">Graphics Design</a></li>
-      <sub>36,000,000 students</sub>
-      <li><a href="">Drawing</a>
-      </li>
-      <sub>36,000,000 students</sub>
-    </ul>
-
-    <button>Explore more topics</button>
-  </section>
-
-  <section>
-    <h1>Trusted by over 13,400 great teams</h1>
-    <p>Leading companies use the same courses to help employees keep their skills fresh.</p>
-    <img src="images/logos.png" alt="partners">
+    <details>
+      <summary>Drawing</summary>
+      <p>
+      <div class="grp2">
+        <img src="images/visa-online.jpg" alt="Phyton">
+        <sub>Learn Drawing: The complete Data Science course</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Learning Drawing for Data Analysis and Visualization</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Drawing for Beginners - Learn Drawing from scratch</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+        <img src="images/visa-online.jpg" alt="">
+        <sub>Teach your kids Drawing: Learn Drawing at any age</sub>
+      </div>
+      </p>
+    </details>
+    <hr>
 
     <div>
-    <img src="images/logo-udemy.svg" alt="logo">
-    <p>Upskill your team with Udemy Business</p>
-    <ul>
-      <li>Ulimites access to 19,000 courses+top Udemy courses, anytime, anywhere</li>
-      <li>International course collection in 14 languages</li>
-      <li>Top certifications in tech and business</li>
-    </ul>
-    <button>Get Udemy Business</button>
-    <button>Learn more</button>
-    <img src="images/UB_Promo_800x800.jpg" alt="images">
-  </div>
 
-  <div>
-    <img src="images/instructor-1x-v3.jpg" alt="images">
-    <h2>Become an Instructor</h2>
-   <p>Instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love.</p>
-    <button>Start teaching today</button>
+      <div>
+        Learn in-demand skills with over 213,000 video courses
+      </div>
+      <div>
+        Choose courses taugh by real-world experts
+      </div>
+      <div>
+        Learn at your own pace, with lifetime access on mobile and desktop
+      </div>
+
+    </div>
+
+    <div>
+      <h2>Students are viewing</h2>
+      <img src="images/visa-online.jpg" alt="">
+      <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+      <img src="images/visa-online.jpg" alt="">
+      <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+      <img src="images/visa-online.jpg" alt="">
+      <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+      <img src="images/visa-online.jpg" alt="">
+      <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+      <img src="images/visa-online.jpg" alt="">
+      <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+      <img src="images/visa-online.jpg" alt="">
+      <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+      <img src="images/visa-online.jpg" alt="">
+      <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+      <img src="images/visa-online.jpg" alt="">
+      <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+      <img src="images/visa-online.jpg" alt="">
+      <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+      <img src="images/visa-online.jpg" alt="">
+      <sub>Drawing from scratch &#38; Selenium WebDriver QA Automation 2022</sub>
+    </div>
+  </section>
+
+  <section>
+   <div class="showw">
+      <h2>Featured topic by category</h2>
+      <div class="show4">
+      <ul>
+        <h3>Development</h3>
+        <li><a class="topic_anchor" href="">Python</a></li>
+        <p>36,354,994 students</p>
+        <li><a class="topic_anchor" href="">Web Development</a></li>
+        <p>11,415,615 students</p>
+        <li><a class="topic_anchor" href="">Machine Learning</a></li>
+        <p>7,070,015 students</p>
+      </ul>
+
+
+      <ul>
+        <h3>Business</h3>
+        <li><a class="topic_anchor" href="">Financial Analysis</a></li>
+        <p>1,195,282 students</p>
+        <li><a class="topic_anchor" href="">SQL</a></li>
+        <p>5,977,561 students</p>
+        <li><a class="topic_anchor" href="">PMP</a></li>
+        <p>1,733,398 students</p>
+      </ul>
+
+
+      <ul>
+        <h3>IT and Software</h3>
+        <li><a class="topic_anchor" href="">AWS Certification</a></li>
+        <p>6,078,244 students</p>
+        <li><a class="topic_anchor" href="">Ethical Hacking</a></li>
+        <p>10,931,066 students</p>
+        <li><a class="topic_anchor" href="">Cyber Security</a></li>
+        <p>3,998,037 students</p>
+      </ul>
+
+      <ul>
+        <h3>Design</h3>
+        <li><a class="topic_anchor" href="">Photoshop</a></li>
+        <p>10,909,736 students</p>
+        <li><a class="topic_anchor" href="">Graphic Design<a></li>
+        <p>3,381,052 students</p>
+        <li><a class="topic_anchor" href="">Drawing</a></li>
+        <p>2,410,849 students</p>
+      </ul>
+      <button class="explore_btn">Explore More Topics</button>
+    </div>
+  </section>
+
+<section>
+  <section class="show5">
+    
+    <h2>Trusted by over 13,400 great teams</h2>
+    <p>
+      Leading companies use the same courses to help employees keep
+      their skills fresh.
+    </p>
+    <div class="flex">
+      <img
+        src="https://s.udemycdn.com/partner-logos/v4/nasdaq-dark.svg"
+        alt=""
+      />
+      <img
+        src="https://s.udemycdn.com/partner-logos/v4/volkswagen-dark.svg"
+        alt=""
+      />
+      <img
+        src="https://s.udemycdn.com/partner-logos/v4/box-dark.svg"
+        alt=""
+      />
+      <img
+        src="https://s.udemycdn.com/partner-logos/v4/netapp-dark.svg"
+        alt=""
+      />
+      <img
+        src="https://s.udemycdn.com/partner-logos/v4/eventbrite-dark.svg"
+        alt=""
+      />
+      <img
+        src="https://s.udemycdn.com/partner-logos/v4/tcs-dark.svg"
+        alt=""
+      />
+    </div>
+  </section>
+</section>
+
+  <section>
+    <div>
+      <img src="images/logo-udemy.svg" alt="logo">
+      <p>Upskill your team with Udemy Business</p>
+      <ul>
+        <li>Ulimites access to 19,000 courses+top Udemy courses, anytime, anywhere</li>
+        <li>International course collection in 14 languages</li>
+        <li>Top certifications in tech and business</li>
+      </ul>
+      <button>Get Udemy Business</button>
+      <button>Learn more</button>
+      <img src="images/UB_Promo_800x800.jpg" alt="images">
+    </div>
+
+    <div>
+      <img src="images/instructor-1x-v3.jpg" alt="images">
+      <h2>Become an Instructor</h2>
+      <p>Instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach
+        what you love.</p>
+      <button>Start teaching today</button>
+    </div>
   </div>
   </section>
 
