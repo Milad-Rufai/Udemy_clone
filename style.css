@@ -241,18 +241,40 @@ border: 1px solid rgb(41, 39, 39);
 }
 
 .flex{
-  background-color: #f7f9fa;
   display: grid;
   grid-template-columns: repeat(6 , 1fr);
   grid-gap: 1.5rem; 
   margin-top: 0;
   padding:10px ;
   padding-left:-20px;
-  justify-content:start;
 }
 
+.show6 {
+position: relative;
+display: inline-grid;
+grid-template-columns: 40% 50%;
+text-align: left;
+align-items: center;
+padding: 25px 45px 50px;
+}
 
+.dis-left{
+  padding-left: 100px;
+  font-size: xx-large;
+}
 
+.showw6 {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 80% 100%;
+  text-align: left;
+  padding: 25px 45px 50px;
+  }
+
+.dis-right{
+  padding-left: 100px;
+  font-size: xx-large;
+}
 
 
 
