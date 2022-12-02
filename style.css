@@ -304,11 +304,14 @@ padding-left: 200px;
   }
 
 .dis-right{
-  padding-left: 100px;
-  font-size: xx-large;
+  font-size: x-large;
+  font-weight: bold;
+  display: flex;
 }
 
-
+.dis-right img{
+  margin-left: 500px;
+}
 
 footer{
     background-color: black;
